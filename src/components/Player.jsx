@@ -40,13 +40,13 @@ export const Player = ({
           <button onClick={onCall}>Call</button>
           <button onClick={onOpen}>Raise first</button>
           <button onClick={onThreeBet}>3bet</button>
-          <button onClick={onFourBet}>4bet</button>
+          {/* <button onClick={onFourBet}>4bet</button> */}
           <button onClick={onThreeBetFold}>Fold to 3bet</button>
-          <button onClick={onFourBetFold}>Fold to 4bet</button>
+          {/* <button onClick={onFourBetFold}>Fold to 4bet</button> */}
           <button onClick={onThreeBetCall}>Call to 3bet</button>
-          <button onClick={onFourBetCall}>Call to 4bet</button>
-          <button onClick={onFourBetPush}>Push to 3bet</button>
-          <button onClick={onThreeBetPush}>Push to 4bet</button>
+          {/* <button onClick={onFourBetCall}>Call to 4bet</button> */}
+          <button onClick={onThreeBetPush}>Push to 3bet</button>
+          {/* <button onClick={onThreeBetPush}>Push to 4bet</button> */}
           <button className="danger" onClick={onPlayerDestroy}>
             Remove player
           </button>

@@ -5,8 +5,8 @@ export const attributes = [
   "threeBetCall",
   "threeBetFold",
   "threeBetPush",
-  "fourBet",
-  "fourBetCall",
-  "fourBetFold",
-  "fourBetPush",
+  // "fourBet",
+  // "fourBetCall",
+  // "fourBetFold",
+  // "fourBetPush",
 ];
