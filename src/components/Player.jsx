@@ -33,6 +33,10 @@ export const Player = ({
             {attributeName} {showPercentage(player[attributeName])}
           </p>
         ))}
+
+        <button className="danger" onClick={onPlayerDestroy}>
+          Remove player
+        </button>
       </td>
 
       <td>
@@ -47,9 +51,6 @@ export const Player = ({
           {/* <button onClick={onFourBetCall}>Call to 4bet</button> */}
           <button onClick={onThreeBetPush}>Push to 3bet</button>
           {/* <button onClick={onThreeBetPush}>Push to 4bet</button> */}
-          <button className="danger" onClick={onPlayerDestroy}>
-            Remove player
-          </button>
         </div>
       </td>
     </tr>

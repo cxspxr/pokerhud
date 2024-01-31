@@ -1,13 +1,12 @@
 .actions {
   display: flex;
   flex-direction: column;
-
 }
 
 .actions button {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 input {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
