@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pokerhud/static/css/main.ff80216c.css",
+    "main.css": "/pokerhud/static/css/main.27882c44.css",
     "main.js": "/pokerhud/static/js/main.6e60154d.js",
     "static/js/787.94c4de2f.chunk.js": "/pokerhud/static/js/787.94c4de2f.chunk.js",
     "index.html": "/pokerhud/index.html",
-    "main.ff80216c.css.map": "/pokerhud/static/css/main.ff80216c.css.map",
+    "main.27882c44.css.map": "/pokerhud/static/css/main.27882c44.css.map",
     "main.6e60154d.js.map": "/pokerhud/static/js/main.6e60154d.js.map",
     "787.94c4de2f.chunk.js.map": "/pokerhud/static/js/787.94c4de2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff80216c.css",
+    "static/css/main.27882c44.css",
     "static/js/main.6e60154d.js"
   ]
 }
