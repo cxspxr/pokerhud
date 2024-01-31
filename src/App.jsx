@@ -96,10 +96,10 @@ function App() {
     }
   };
 
-  const handleOpen = (id) => () => {
-    findAndIncrementAttribute(id, "pfr")();
-    findAndIncrementAttribute(id, "vpip")();
-  };
+  const findAndIncrementAttributeWithVpip = (id, attribute) => () => {
+    findAndIncrementAttribute(id, attribute)();
+    findAndIncrementAttribute(id, 'vpip')();
+  }
 
   const handleNextHand = () => {
     setHands((hands) => hands + 1);
@@ -130,10 +130,10 @@ function App() {
               totalHands={hands}
               player={player}
               onChangeName={handleNameChange(player.id)}
-              onOpen={handleOpen(player.id)}
+              onOpen={findAndIncrementAttributeWithVpip(player.id, 'pfr')}
               onCall={findAndIncrementAttribute(player.id, "vpip")}
-              onThreeBet={findAndIncrementAttribute(player.id, "threeBet")}
-              onFourBet={findAndIncrementAttribute(player.id, "fourBet")}
+              onThreeBet={findAndIncrementAttributeWithVpip(player.id, "threeBet")}
+              onFourBet={findAndIncrementAttributeWithVpip(player.id, "fourBet")}
               onThreeBetFold={findAndIncrementAttribute(
                 player.id,
                 "threeBetFold"
